@@ -31,8 +31,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">COMMUNISM</h1>
         </header>
+        <div id = "textHeader">
+            <h1 className="App-title">COMMUNISM</h1>
+        </div>
         <div id = "imageBody">
           <img src={image} className="Me" alt="JOIN ME" style={{width:"500px",height:"750px"}} />
         </div>
